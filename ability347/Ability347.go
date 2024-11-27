@@ -15,7 +15,9 @@ type Ability347 struct {
 }
 
 func NewAbility347(client *topsdk.TopClient) *Ability347 {
-	return &Ability347{client}
+	return &Ability347{
+		Client: client,
+	}
 }
 
 /*
