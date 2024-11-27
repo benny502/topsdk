@@ -12,7 +12,8 @@ import (
 	"net/url"
 	"strings"
 	"time"
-	"topsdk/util"
+
+	"github.com/benny502/topsdk/util"
 )
 
 type TopClient struct {

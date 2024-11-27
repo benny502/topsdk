@@ -3,10 +3,11 @@ package ability347
 import (
 	"errors"
 	"log"
-	"topsdk"
-	"topsdk/ability347/request"
-	"topsdk/ability347/response"
-	"topsdk/util"
+
+	"github.com/benny502/topsdk"
+	"github.com/benny502/topsdk/ability347/request"
+	"github.com/benny502/topsdk/ability347/response"
+	"github.com/benny502/topsdk/util"
 )
 
 type Ability347 struct {

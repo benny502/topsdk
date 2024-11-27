@@ -1,23 +1,23 @@
 package response
 
 import (
-    "topsdk/ability347/domain"
+	"github.com/benny502/topsdk/ability347/domain"
 )
 
 type TaobaoXhotelBnbownerDeleteResponse struct {
 
-    /*
-        System request id
-    */
-    RequestId string `json:"request_id,omitempty" `
+	/*
+	   System request id
+	*/
+	RequestId string `json:"request_id,omitempty" `
 
-    /*
-        System body
-    */
-    Body string
+	/*
+	   System body
+	*/
+	Body string
 
-    /*
-        查询结果集
-    */
-    Result  domain.TaobaoXhotelBnbownerDeleteResultSet `json:"result,omitempty" `
+	/*
+	   查询结果集
+	*/
+	Result domain.TaobaoXhotelBnbownerDeleteResultSet `json:"result,omitempty" `
 }
