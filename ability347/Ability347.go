@@ -164,7 +164,6 @@ func (ability *Ability347) TaobaoXhotelMultiplerateDelete(req *request.TaobaoXho
 上传信息计算飞猪国际城市
 */
 func (ability *Ability347) TaobaoXhotelCityCoordinatesBatchUpload(req *request.TaobaoXhotelCityCoordinatesBatchUploadRequest, session string) (*response.TaobaoXhotelCityCoordinatesBatchUploadResponse, error) {
-	log.Println("in")
 	if ability.Client == nil {
 		return nil, errors.New("Ability347 topClient is nil")
 	}
